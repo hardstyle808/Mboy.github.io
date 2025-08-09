@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free Meal Plan Signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 500px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: #f9f9f9;
+        }
+        .form-container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        input { 
+            width: 100%; 
+            padding: 12px; 
+            margin: 8px 0; 
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; 
+        }
+        button { 
+            background: #000; 
+            color: #fff; 
+            padding: 14px; 
+            border: none; 
+            width: 100%;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Get Your Free Meal Plan</h2>
+        <form action="https://formspree.io/f/mgvzrvew" method="POST">
+            <label>Full Name*</label>
+            <input type="text" name="name" required>
+            
+            <label>Email*</label>
+            <input type="email" name="email" required>
+            
+            <button type="submit">Send My Free Plan →</button>
+        </form>
+    </div>
+</body>
+</html>
